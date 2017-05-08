@@ -20,6 +20,13 @@ function routerConfig($stateProvider, $urlRouterProvider) {
       template: require('../view/about/about.html'),
       controller: 'AboutController',
       controllerAs: 'aboutCtrl'
+    },
+    {
+      name: 'blog',
+      url: '/blog',
+      template: require('../view/blog/blog.html'),
+      controller: 'BlogController',
+      controllerAs: 'blogCtrl'
     }
   ];
 

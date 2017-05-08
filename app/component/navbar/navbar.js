@@ -19,4 +19,8 @@ function NavbarController($log, $location, $rootScope) {
     $location.url('/about');
   }
 
+  this.showBlog = function() {
+    $location.url('/blog');
+  }
+
 };
