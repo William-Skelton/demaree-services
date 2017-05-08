@@ -24,8 +24,8 @@ module.exports = {
     new ExtractTextPlugin('bundle.css'),
     new webpack.DefinePlugin({
       'process.env': {
-        '__API_URL__': JSON.stringify(process.env.API_URL),
-        '__DEBUG__': JSON.stringify(!production)
+        __API_URL__: JSON.stringify(process.env.API_URL)
+        // __DEBUG__: JSON.stringify(!production)
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
