@@ -15,8 +15,8 @@ function NavbarController($log, $location, $rootScope) {
     $location.url('/home');
   }
 
-  this.showAbout = function() {
-    $location.url('/about');
+  this.showServices = function() {
+    $location.url('/services');
   }
 
   this.showBlog = function() {

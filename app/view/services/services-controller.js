@@ -1,6 +1,6 @@
 'use strict';
 
-require('./_about.scss');
+require('./_services.scss');
 
 module.exports = ['$log', '$location', '$rootScope', AboutController];
 
