@@ -27,6 +27,10 @@ function NavbarController($log, $location, $rootScope) {
     $location.url('/rates');
   }
 
+  this.showPersonnel = function() {
+    $location.url('/personnel');
+  }
+
   this.showBlog = function() {
     $location.url('/blog');
   }

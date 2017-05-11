@@ -36,6 +36,13 @@ function routerConfig($stateProvider, $urlRouterProvider) {
       controllerAs: 'ratesCtrl'
     },
     {
+      name: 'personnel',
+      url: '/personnel',
+      template: require('../view/personnel/personnel.html'),
+      controller: 'PersonnelController',
+      controllerAs: 'personnelCtrl'
+    },
+    {
       name: 'blog',
       url: '/blog',
       template: require('../view/blog/blog.html'),
