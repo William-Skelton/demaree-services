@@ -2,9 +2,9 @@
 
 require('./_services.scss');
 
-module.exports = ['$log', '$location', '$rootScope', AboutController];
+module.exports = ['$log', '$location', '$rootScope', ServicesController];
 
-function AboutController($log, $location) {
+function ServicesController($log, $location) {
   let url = $location.url();
 
 };
