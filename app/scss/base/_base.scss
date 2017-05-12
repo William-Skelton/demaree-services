@@ -1,40 +1,39 @@
 @import '../lib/vars';
 
 html body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   height: 100%;
   margin: 0 auto;
-  background-color: #ddd;
+  background-color: $white;
 }
 
 h1 {
-  font-size: 4vw;
+  font-size: 2vw;
   text-decoration: underline;
-  margin-bottom: 5vw;
+  margin-bottom: $gutter-sm;
 }
 
 h2 {
   font-size: 2vw;
   margin-bottom: 1vw;
 
-  &.gear-title {
-    font-size: 3vw;
-    margin-bottom: 2vw;
-    text-decoration: underline;
-  }
 }
 
 main{
   max-width: 960px;
   width: 90%;
-  margin: 5% 5%;
-  min-height: 750px;
-  margin-top: 15vw;
+  margin: $gutter-sm $gutter-sm;
+  min-height: 400px;
+  margin-top: 4vw;
 }
 
 footer {
-  height: 10vw;
+  height: 6vw;
   width: 100%;
-  background-color: $site-tertiary;
+  background-color: $site-primary;
 }
 
 button {
