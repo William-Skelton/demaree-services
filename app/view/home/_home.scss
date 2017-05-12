@@ -1,0 +1,14 @@
+@import '../../scss/lib/vars';
+
+.landing {
+  ul {
+    list-style: none;
+    width: 80%;
+
+    li {
+      margin-top: $gutter-sm;
+      margin-bottom: $gutter-sm;
+      width: 100%;
+    }
+  }
+}

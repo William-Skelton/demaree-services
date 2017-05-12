@@ -1,4 +1,26 @@
-.btn-std {
-  background-color: rgba(255, 255, 255, 0);
-  border-color: rgba(255, 255, 255, 0)
+@import '../../scss/lib/vars';
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 2.5vw;
+
+  .nav-btn {
+    color: $site-primary;
+
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 2vw;
+    cursor: pointer;
+  }
+
+  .nav-btn:hover {
+    color: $site-secondary;
+    text-decoration: underline;
+  }
 }
