@@ -1,0 +1,36 @@
+ /* :::: Reset and Vars :::: */
+
+@import url("/css/reset.css");
+
+
+/* ::: Views  ::: */
+
+@import url('/view/home/home.css');
+@import url('/view/personnel/personnel.css');
+@import url('/view/rates/rates.css');
+@import url('/view/services/services.css');
+@import url('/view/testimonials/testimonials.css');
+
+main {
+  border: 2px solid $site-primary;
+}
+
+
+
+/*
+
+//Colors:
+primary: #334897;
+secondary: #396b4a;
+tertiary: #53778b;
+link-color: #FFFF99;
+link-hover: #FFFF00;
+grey: #6f747c;
+black: #000;
+white: #F7F8FD;
+
+// Margins:
+$gutter-std: 5%;
+$gutter-sm: $gutter-std / 2;
+
+*/
