@@ -1,15 +1,14 @@
- /* :::: Reset and Vars :::: */
+ /* :::: Reset and Base :::: */
 
-@import url("/css/reset.css");
-
+@import url("reset.css");
+@import url("base.css");
 
 /* ::: Views  ::: */
 
-@import url('/view/home/home.css');
-@import url('/view/personnel/personnel.css');
-@import url('/view/rates/rates.css');
-@import url('/view/services/services.css');
-@import url('/view/testimonials/testimonials.css');
+@import url('../view/personnel/personnel.css');
+@import url('../view/rates/rates.css');
+@import url('../view/services/services.css');
+@import url('../view/testimonials/testimonials.css');
 
 main {
   border: 2px solid $site-primary;
