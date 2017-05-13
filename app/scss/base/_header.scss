@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  top: 0;
+  z-index: 999999;
+  margin-bottom: $gutter-sm;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+
+
+    margin-bottom: $gutter-std;
+
+
+    h1 {
+      text-decoration: none;
+      margin: 0vw;
+    }
+
+    img {
+      width: 15%;
+    }
+  }
+
+}

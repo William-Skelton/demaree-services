@@ -1,0 +1,21 @@
+// :::: Reset and Vars :::: //
+
+@import '/lib/reset';
+@import '/lib/vars';
+
+// :::: Base Styles :::: //
+
+@import '/base/base';
+@import '/base/header';
+
+// ::: Views  ::: //
+
+@import '../view/home/home';
+@import '../view/personnel/personnel';
+@import '../view/rates/rates';
+@import '../view/services/services';
+@import '../view/testimonials/testimonials';
+
+main {
+  border: 2px solid $site-primary;
+}
