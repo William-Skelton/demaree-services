@@ -16,7 +16,10 @@
     box-sizing: border-box;
     border-radius: 3px;
     font-size: 2vw;
+
     cursor: pointer;
+
+    margin: $gutter-sm;
   }
 
   .nav-btn:hover {

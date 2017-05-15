@@ -11,23 +11,21 @@ html body {
 }
 
 h1 {
-  font-size: 2vw;
+  font-size: 1.8vw;
   text-decoration: underline;
   margin-bottom: $gutter-sm;
 }
 
 h2 {
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin-bottom: 1vw;
-
 }
 
 main{
   max-width: 960px;
   width: 90%;
-  margin: $gutter-sm $gutter-sm;
+  margin: $gutter-sm/2 $gutter-sm/2;
   min-height: 400px;
-  margin-top: 4vw;
 }
 
 footer {
