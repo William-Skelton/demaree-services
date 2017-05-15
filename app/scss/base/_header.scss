@@ -1,31 +1,32 @@
 header {
-  // display: flex;
-  // flex-direction: column;
 
-  width: 90%;
+  width: 100%;
   top: 0;
   z-index: 999999;
   margin-bottom: $gutter-sm;
+
+  background-color: $site-primary;
 
   .title {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
-    margin: $gutter-std;
-    padding: 1.5%;
+    margin: $gutter-sm/2;
+    padding: 1%;
 
     h1 {
       text-decoration: none;
       margin: $gutter-sm/2;
-      margin-right: $gutter-sm
+      margin-right: $gutter-std;
+
+      color: $white;
     }
 
     img {
-      width: 15%;
-      margin-right: $gutter-sm/2;
+      width: 12%;
+      margin-right: $gutter-sm;
     }
   }
-
 }
