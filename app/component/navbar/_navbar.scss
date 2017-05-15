@@ -7,20 +7,25 @@
   align-items: center;
   justify-content: space-around;
 
-  width: 100%;
+  width: 50vw;
   height: 2.5vw;
 
   .nav-btn {
-    color: $site-primary;
+    color: $white;
 
     box-sizing: border-box;
     border-radius: 3px;
     font-size: 2vw;
+
     cursor: pointer;
+
+    // margin: $gutter-sm;
+    // padding: 0.1%
   }
 
   .nav-btn:hover {
-    color: $site-secondary;
-    text-decoration: underline;
+    color: $black;
+    background-color: $site-secondary;
+    // text-decoration: underline;
   }
 }
