@@ -1,0 +1,10 @@
+@import '../../scss/lib/vars';
+
+.personnel {
+  .personnel-content{
+    p {
+      margin-top: $gutter-sm;
+      margin-bottom: $gutter-sm;
+    }
+  }
+}

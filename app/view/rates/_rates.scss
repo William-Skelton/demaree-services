@@ -1,0 +1,22 @@
+@import '../../scss/lib/vars';
+
+.rates {
+  h2 {
+    font-weight: bold;
+  }
+
+  p {
+    margin-top: $gutter-sm;
+    margin-bottom: $gutter-sm;
+  }
+
+  ul {
+
+    // border: 2px solid $site-primary;
+    padding-left: 4%;
+
+    li {
+      list-style: circle;
+    }
+  }
+}

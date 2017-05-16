@@ -22,10 +22,28 @@ h2 {
 }
 
 main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   max-width: 960px;
   width: 90%;
   margin: $gutter-sm/2 $gutter-sm/2;
   min-height: 400px;
+
+  .page {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 3px solid $site-primary;
+    padding: 2%;
+
+    h2 {
+      font-weight: bold;
+    }  
+  }
 }
 
 footer {
