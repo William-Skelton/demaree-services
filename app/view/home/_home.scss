@@ -1,9 +1,12 @@
 @import '../../scss/lib/vars';
 
-.landing {
+.home {
+  padding: 2%;
+
+  border: 3px solid $site-primary;
   ul {
     list-style: none;
-    width: 80%;
+    // width: 80%;
 
     li {
       margin-top: $gutter-sm;
