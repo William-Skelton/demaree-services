@@ -40,6 +40,7 @@
     "pascalcase": "^0.1.1",
     "resolve-url-loader": "^2.0.2",
     "sass-loader": "^4.1.1",
+    "trello": "^0.7.0",
     "ui-router": "^1.0.0-alpha.3",
     "url-loader": "^0.5.8",
     "webpack": "^2.3.3"
